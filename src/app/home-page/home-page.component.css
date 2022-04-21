@@ -1,0 +1,28 @@
+.row{
+    margin-top: 0em;
+ }
+.img-home-page{
+    width: 30em;
+    height: 30em;
+    opacity: 50%;
+}
+.main-text{
+    margin-top: 4em;
+    color: whitesmoke;
+    opacity: 70%;
+}
+
+.home-name-text{
+    margin-left: 5em;
+}
+.main-paragraph{
+    margin-top: 2em;
+    color: aliceblue;
+    font-stretch: condensed;
+}
+#right-col{
+
+}
+#left-col{
+ 
+}
