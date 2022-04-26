@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
-import { ContactPageComponent } from './contact-page/contact-page.component';
+
+import { ContactUsPageComponent } from './contact-us-page/contact-us-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    ContactPageComponent
+
+    ContactUsPageComponent
   ],
   imports: [
     BrowserModule,

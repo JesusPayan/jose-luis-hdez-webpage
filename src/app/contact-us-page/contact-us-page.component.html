@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="container-fuid">
+        <div class="row-top">
+            <h1 class="main-contact">Contactanos</h1>
+        </div>
+        <div class="row-mid">
+            <h6 class="contact-h6-top">Compartenos tu Correo Electronico y Numero de Telefono para que te contactemos. </h6>
+         <form action="" id="contact-form">
+             <div class="mb-3">
+                <div class="input-objects">
+                    <label for="emailTextArea" class="form-text-label">Correo Electronico:</label>
+                    <input type="email" class="form-control" id="textEmail" placeholder="name@example.com" value="test@example.com">
+   
+                    <label for="emailTextArea" class="form-text-label">Numero de Telefono:</label>
+                    <input type="tel" name="" id="textPhone" class="form-control">
+                    
+                    <label for="emailTextArea" class="form-text-label" style="text-size: 12px;">Comentarios:</label>
+                    <textarea class="form-control" placeholder="Dejanos tu comentario" id="txtComentario"></textarea>
+
+                    <button type="submit" class="btn btn-primary" id="btnSend" onclick="">Enviar</button>
+                </div>
+             </div>
+         </form>   
+        </div>
+    </div>
+</div>
+<script>
+    alert(document.getElementById(textEmail.value)+document.getElementById(textPhone.value));
+</script>

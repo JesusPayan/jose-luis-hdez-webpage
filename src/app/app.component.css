@@ -5,9 +5,20 @@
   border-radius: .2em;
   opacity: 50%;
 }
+.nav-link:hover{
+  background-color: green;
+  color: black;
+
+}
+
 #navbarDropdown{
   color: white;
 }
-.dropdown-item{
-  color: black;
+#navbarDropdown:hover{
+  background-color: green;
+  color: white;
+}
+.dropdown-item:hover{
+  background-color: green;
+  color: white;
 }
